@@ -15,3 +15,14 @@ This is an n-tier Single Page Application (SPA) built on .Net platform using var
  Back End: MS SQL Server 2016
  
  Tools: Visual Studio 2015 and SQL Server Management Studio 2016
+ 
+ To run application you need Visual Studio 2015
+ 
+ You need to upddate the web.config file to point to you local database
+ 
+ example
+ <connectionStrings>
+    <add name="FJPDB" connectionString="Data Source=DELL;Initial Catalog=FJPDB;Integrated Security=True"         providerName="System.Data.SqlClient" />
+  </connectionStrings>
+  
+  Change the Data Source to your SQL Server
