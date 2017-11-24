@@ -18,11 +18,6 @@ This is an n-tier Single Page Application (SPA) built on .Net platform using var
  
  To run application you need Visual Studio 2015
  
- You need to upddate the web.config file to point to you local database
+ You need to upddate the web.config  connectionString file to point to you local database
  
- example
- <connectionStrings>
-    <add name="FJPDB" connectionString="Data Source=DELL;Initial Catalog=FJPDB;Integrated Security=True"         providerName="System.Data.SqlClient" />
-  </connectionStrings>
-  
-  Change the Data Source to your SQL Server.
+ Change the Data Source to your SQL Server.
