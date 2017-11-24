@@ -25,4 +25,4 @@ This is an n-tier Single Page Application (SPA) built on .Net platform using var
     <add name="FJPDB" connectionString="Data Source=DELL;Initial Catalog=FJPDB;Integrated Security=True"         providerName="System.Data.SqlClient" />
   </connectionStrings>
   
-  Change the Data Source to your SQL Server
+  Change the Data Source to your SQL Server.
